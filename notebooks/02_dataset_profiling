@@ -1,8 +1,0 @@
-# Databricks notebook source
-# COMMAND ----------
-SOURCE_TABLE = "workspace.default.bronze_events"
-
-# COMMAND ----------
-# Load bronze data
-df = spark.table(SOURCE_TABLE)
-display(df.limit(20))
