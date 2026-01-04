@@ -18,20 +18,21 @@ The pipeline:
 
 ---
 
-## 🏗️ Architecture (Lakehouse Design)
 
-Landing (simulated data arrival)
-        ↓
-Bronze (raw incremental ingestion)
-        ↓
-Silver (cleaned & deduplicated events)
-        ↓
-Gold (business-ready metrics)
-        ↓
-Dashboard (Tableau / Databricks SQL)
+## 🏗 Architecture (Lakehouse Design)
 
+```text
+Landing (simulated daily data arrival)
+        ↓
+Bronze Layer (raw incremental ingestion - Delta Lake)
+        ↓
+Silver Layer (cleaned, typed, deduplicated events)
+        ↓
+Gold Layer (business-ready aggregated metrics)
+        ↓
+BI Layer (Tableau / Databricks SQL dashboards)
+```
 
----
 
 ## 🧰 Technology Stack
 
@@ -44,30 +45,31 @@ Dashboard (Tableau / Databricks SQL)
 
 ---
 
-## 📂 Repository Structure
+## 📁 Repository Structure
 
+```text
 ecommerce-product-funnel-analytics-databricks/
-│
 ├── notebooks/
-│   ├── 00_replay_to_landing
-│   ├── 00_setup_and_load
-│   ├── 01_bronze_ingestion
-│   ├── 02_dataset_profiling
-│   ├── 03_silver_events_cleaning
-│   ├── 04_gold_funnel_metrics
-│   ├── 05_gold_product_daily_metrics
-│   └── 06_pipeline_monitoring
+│   ├── 00_replay_to_landing.ipynb
+│   ├── 00_setup_and_load.ipynb
+│   ├── 01_bronze_ingestion.ipynb
+│   ├── 02_dataset_profiling.ipynb
+│   ├── 03_silver_events_cleaning.ipynb
+│   ├── 04_gold_funnel_metrics.ipynb
+│   ├── 05_gold_product_daily_metrics.ipynb
+│   └── 06_pipeline_monitoring.ipynb
 │
 ├── sql/
-│   └── Analytical SQL queries for validation & KPIs
-│
-├── docs/
-│   └── Architecture diagrams and pipeline screenshots
+│   └── analytical_queries.sql        # Validation & KPI checks
 │
 ├── tableau/
-│   └── Dashboard screenshots / extracts
+│   └── dashboard_screenshots/         # Tableau Public dashboard images
+│
+├── docs/
+│   └── architecture_diagrams/         # Pipeline & Lakehouse diagrams
 │
 └── README.md
+```
 
 ---
 
