@@ -150,7 +150,7 @@
                 "showTitle": true,
                 "showDescription": false,
                 "headerAlignment": "center",
-                "title": "Daily Funnel Trend\n"
+                "title": "Daily Funnel Volume"
               }
             }
           },
@@ -213,7 +213,7 @@
               },
               "frame": {
                 "showTitle": true,
-                "title": "Daily Conversion Rates",
+                "title": "Daily Conversion Rates Across Funnel Stages",
                 "headerAlignment": "center"
               }
             }
@@ -291,7 +291,7 @@
               },
               "frame": {
                 "showTitle": true,
-                "title": "Top 10 Products by Revenue",
+                "title": "Top 10 Products by Revenue (Selected Period)",
                 "headerAlignment": "center"
               }
             },
@@ -513,7 +513,7 @@
               "withRowNumber": false,
               "frame": {
                 "showTitle": true,
-                "title": "Pipeline Run History",
+                "title": "Pipeline Execution History",
                 "headerAlignment": "center"
               }
             }
@@ -559,7 +559,7 @@
                     "abbreviation": "compact",
                     "decimalPlaces": {
                       "type": "max",
-                      "places": 0
+                      "places": 2
                     }
                   }
                 }
