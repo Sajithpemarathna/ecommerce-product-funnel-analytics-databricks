@@ -58,7 +58,7 @@ ecommerce-product-funnel-analytics-databricks/
 │   ├── 04_gold_funnel_metrics.ipynb
 │   ├── 05_gold_product_daily_metrics.ipynb
 │   └── 06_pipeline_monitoring.ipynb
-│
+│   └── 07_daily_pipeline_runner.ipynb
 ├── sql/
 │   └── analytical_queries.sql        # Validation & KPI checks
 │
