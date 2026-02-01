@@ -160,7 +160,19 @@ Creates **daily funnel-level KPIs**, including:
 - Enables observability, debugging, and auditing
 
 ---
+### 7 Daily Pipeline Runner
+**Notebook:** `07_daily_pipeline_runner´
 
+- Orchestrates end-to-end daily pipeline execution
+- Sequentially triggers:
+  - Bronze ingestion
+  - Silver transformations
+  - Gold aggregations
+  - Monitoring updates
+- Supports date-driven runs for automation and reprocessing
+- Acts as the single entry point for scheduled Databricks jobs
+
+---
 ## ⏱️ Job Orchestration & Scheduling
 
 The entire pipeline is orchestrated using **a single Databricks Job** with task dependencies:
