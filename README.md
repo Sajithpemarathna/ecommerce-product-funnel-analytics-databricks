@@ -198,6 +198,11 @@ Replay → Bronze → Silver → Gold Funnel → Gold Product → Monitoring
   - Databricks SQL Dashboards
 - Metrics update automatically as new daily runs complete
 
+## 📊 Ecommerce Daily Funnel Dashboard (Databricks)
+
+![Ecommerce Daily Funnel Dashboard](Databrick%20Dashboard/Ecommerce%20Daily%20Funnel%20Dashboard.jpg)
+
+
 ---
 
 ## ✅ Key Concepts Demonstrated
