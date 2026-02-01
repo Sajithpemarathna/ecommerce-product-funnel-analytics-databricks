@@ -1,6 +1,6 @@
 # 🛒 Ecommerce Product Funnel Analytics (Databricks)
 
-An end-to-end **batch analytics pipeline** for ecommerce product funnel analysis built using **Databricks, Apache Spark, Delta Lake, SQL, and Tableau**.  
+An end-to-end **batch analytics pipeline** for ecommerce product funnel analysis built using **Databricks, Apache Spark, Delta Lake, and SQL**.  
 This project demonstrates **incremental data processing, Lakehouse architecture (Bronze–Silver–Gold), job orchestration, monitoring, and dashboard-ready analytics**.
 
 ---
@@ -30,7 +30,7 @@ Silver Layer (cleaned, typed, deduplicated events)
         ↓
 Gold Layer (business-ready aggregated metrics)
         ↓
-BI Layer (Tableau / Databricks SQL dashboards)
+BI Layer (Databricks SQL dashboards)
 ```
 
 
@@ -41,7 +41,7 @@ BI Layer (Tableau / Databricks SQL dashboards)
 - Delta Lake
 - Databricks Jobs & Scheduling
 - SQL
-- Tableau
+
 
 ---
 
@@ -62,8 +62,8 @@ ecommerce-product-funnel-analytics-databricks/
 ├── sql/
 │   └── analytical_queries.sql        # Validation & KPI checks
 │
-├── tableau/
-│   └── dashboard_screenshots/         # Tableau Public dashboard images
+├── Databrick_Dashboard/
+│   └── Ecommerce Daily Funnel Dashboard/         # Automated Databrick dashboard pdf
 │
 ├── docs/
 │   └── architecture_diagrams/         # Pipeline & Lakehouse diagrams
@@ -181,7 +181,6 @@ Replay → Bronze → Silver → Gold Funnel → Gold Product → Monitoring
 
 - Gold tables are **dashboard-ready**
 - Designed for:
-  - Tableau
   - Databricks SQL Dashboards
 - Metrics update automatically as new daily runs complete
 
