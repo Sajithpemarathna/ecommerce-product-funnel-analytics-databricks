@@ -20,6 +20,13 @@ The pipeline:
 
 ![Ecommerce Daily Funnel Dashboard](Databrick%20Dashboard/Ecommerce%20Daily%20Funnel%20Dashboard.jpg)
 
+## 🎥 Project Demo Video
+
+▶ **[Watch project demo video](docs/Ecommerce_product_funnel_analytics_project_overview.mp4)**
+
+This short video shows the end-to-end Databricks pipeline execution, dashboards, and pipeline monitoring.
+
+
 
 ---
 
