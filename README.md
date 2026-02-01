@@ -160,8 +160,8 @@ Creates **daily funnel-level KPIs**, including:
 - Enables observability, debugging, and auditing
 
 ---
-### 7 Daily Pipeline Runner
-**Notebook:** `07_daily_pipeline_runner´
+### 7️⃣ Daily Pipeline Runner
+**Notebook:** `07_daily_pipeline_runner`
 
 - Orchestrates end-to-end daily pipeline execution
 - Sequentially triggers:
