@@ -613,7 +613,7 @@
                     "abbreviation": "compact",
                     "decimalPlaces": {
                       "type": "max",
-                      "places": 2
+                      "places": 1
                     }
                   }
                 }
