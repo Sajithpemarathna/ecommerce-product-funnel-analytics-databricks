@@ -16,6 +16,11 @@ The pipeline:
 - Is fully automated using **Databricks Jobs** with parameterized runs (`RUN_DATE`)
 - Exposes **Gold-layer tables** for BI dashboards (Tableau / Databricks SQL)
 
+## 📊 Ecommerce Daily Funnel Dashboard (Databricks)
+
+![Ecommerce Daily Funnel Dashboard](Databrick%20Dashboard/Ecommerce%20Daily%20Funnel%20Dashboard.jpg)
+
+
 ---
 
 
@@ -197,10 +202,6 @@ Replay → Bronze → Silver → Gold Funnel → Gold Product → Monitoring
 - Designed for:
   - Databricks SQL Dashboards
 - Metrics update automatically as new daily runs complete
-
-## 📊 Ecommerce Daily Funnel Dashboard (Databricks)
-
-![Ecommerce Daily Funnel Dashboard](Databrick%20Dashboard/Ecommerce%20Daily%20Funnel%20Dashboard.jpg)
 
 
 ---
