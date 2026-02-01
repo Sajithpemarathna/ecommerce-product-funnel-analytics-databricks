@@ -66,7 +66,9 @@ ecommerce-product-funnel-analytics-databricks/
 │   └── Ecommerce Daily Funnel Dashboard/         # Automated Databrick dashboard pdf
 │
 ├── docs/
-│   └── architecture_diagrams/         # Pipeline & Lakehouse diagrams
+│   ├─ pipeline_overview.png
+    ├─ task_graph_daily_pipeline_runner.png
+    ├─ pipeline_monitoring_table.png
 │
 └── README.md
 ```
